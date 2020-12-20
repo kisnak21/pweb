@@ -1,0 +1,157 @@
+body {
+    margin: 0; 
+    font-family: sans-serif;
+}
+
+.header {
+    margin: 5px; 
+    color: black; 
+    background:orangered; 
+    height: 70px;}
+
+.logo {
+    float: left;
+}
+
+.navbar {
+    float: right;
+}
+
+.navbar ul{
+    list-style: none; 
+    padding-top: 10px;
+}
+
+.navbar ul li{
+    display: inline; 
+    margin: 10px;
+}
+
+.navbar ul li a{
+    text-decoration: none; 
+    color: white; }
+
+.navbar ul li a:hover {
+    border-bottom: 2px solid white;
+}
+
+.gambar {
+    width: 90%; 
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr;
+    margin:auto;
+    }
+
+.gambar .foto img {
+    width: 300px;
+}
+
+.foto {
+    border: 1px solid orangered; 
+    margin:10px; 
+    text-align: center;
+ }
+
+.foto a{
+    border: 1px solid orangered; 
+    padding:10px; color: white; 
+    background: orangered; 
+    text-decoration: none; 
+    border-radius: 20px; 
+    cursor: pointer;
+}
+
+.footer {
+    text-align: center; 
+    margin: 15px; color:black; 
+    background: orangered; 
+    height: 50px;
+}
+
+.footer p{
+    padding-top:15px;
+}
+
+.footer a{
+    text-decoration: none; 
+    color: black; 
+}
+
+.banner {
+    height: 60vh;
+    background-image:url('../projek\ uas/img/mikasa.jpg');
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+    }
+.banner:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(255, 69, 0, .4);
+}
+.banner h2 {
+    color: white;
+    z-index: 1;
+    padding: 20px 25px;
+    border: 3px solid white;
+}
+
+section {
+    padding: 55px 0;
+}
+
+section h3 {
+    text-align: center;
+    padding: 0;
+    color: orangered;
+    margin-bottom: 10px;
+}
+
+.about p{
+    color :orangered;
+    word-spacing: 2px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.box {
+   
+    color :orangered;
+}
+
+.box .col-4 {
+    width : 25%;
+    padding : 20px;
+    box-sizing: border-box;
+    text-align :center;
+    float :left;
+}
+
+.icon {
+    width: 50px;
+    height : 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 50px;
+    margin: 0 auto;
+}
+
+footer {
+    color : black;
+}
+
+.contact .containers .box a {
+    color : orangered;
+    text-decoration:none;
+    border : 1px solid;
+    padding :10px;
+}
